@@ -9,9 +9,6 @@ import { fetchNotes } from "@/lib/api";
 import { useDebounce } from "use-debounce";
 import Modal from "@/components/Modal/Modal";
 import NoteForm from "@/components/NoteForm/NoteForm";
-// import Loader from "../Loader/Loader";
-// import ErrorMessage from "../ErrorMessage/ErrorMessage";
-// import NoResults from "../NoResults/NoResults";
 
 export default function NotesClientPage() {
   const [query, setQuery] = useState("");
